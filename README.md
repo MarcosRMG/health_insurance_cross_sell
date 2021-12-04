@@ -1,7 +1,7 @@
 # Health Insurance Cross-Selling
 ## Auto Insurance
 
-![alt_text](cross_sell/reports/figures/head.jpg) 
+![alt_text](reports/figures/head.jpg) 
 
 # 1 - Business Challenge
 An Insurance company that has provided Health Insurance to its customers need to predict whether the policyholders (customers) from past year will also be interested in Vehicle Insurance provided by the company (Kaggle).
@@ -47,7 +47,7 @@ Methodology: CRISP-DS
 
 Result: True
 
-![alt_text](cross_sell/reports/figures/car_age.png)
+![alt_text](reports/figures/car_age.png)
 
 This information can drive the sales team and impact the Machine Learning model.
  
@@ -55,7 +55,7 @@ This information can drive the sales team and impact the Machine Learning model.
 
 Result: True
 
-![alt_text](cross_sell/reports/figures/age.png) 
+![alt_text](reports/figures/age.png) 
 
 Clients between 33 and 52 years represent 58% of the interested group
 
@@ -67,7 +67,7 @@ Of the group of customers who already have insurance, only 6% had any damage to 
 
 # 5 - Machine Learning Model
 
-![alt_text](cross_sell/reports/figures/gain_curve.png) 
+![alt_text](reports/figures/gain_curve.png) 
 
 The Logistic Regression model was selected for presenting the best performance of the tested algorithms.
 
@@ -107,7 +107,7 @@ Precison: 0.32
 # 8 - Deploy
 
 
-![alt_text](cross_sell/reports/figures/sheets.gif) 
+![alt_text](reports/figures/sheets.gif) 
 
 The API with the ranking model is available to the company and can be accessed by Google Sheets, the sales team can provide the customer information to get the ranking score.
 
